@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Timetable</title>
+    <style>
+        /* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body { 
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                url('https://images.freeimages.com/images/large-previews/48d/woodgrain-texture-1151631.jpg')
+}
+
+
+
+
+
+header {
+    background-color: #5938ec;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+        h2 {
+            font-size: 24px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #56d6b8;
+            color: #fff;
+        }
+.timetable {
+    max-width: 800px;
+    margin: 20px auto;
+    background:  linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                url('https://www.bing.com/images/search?view=detailV2&ccid=Y%2fsY0gD0&id=1579E5E818BDA1AE9DA882EEE8DC578AD4FBB49C&thid=OIP.Y_sY0gD0wKumAdCyUWK5pgHaEK&mediaurl=https%3a%2f%2fwallpaperaccess.com%2ffull%2f4635743.jpg&exph=1080&expw=1920&q=FRONT+END+IMAGE+&simid=608015083014615485&FORM=IRPRST&ck=F2A7A9FFF436E90A03DC3B49F1E1C412&selectedIndex=0');
+     border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
+
+.day {
+    margin-bottom: 20px;
+}
+
+/* Define styles for different day highlights */
+.highlight-blue {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.highlight-green {
+    background-color: #6374ab;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #9a16e7;
+    color: #fff;
+    padding: 10px 0;
+}
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>Front-end Development in 1 Week</h1>
+    </header>
+
+    <section class="timetable">
+        <div class="day">
+            <h2 class="highlight-blue">Monday</h2>
+            </div>
+            <table>
+                <tr>
+                    <th>Timing</th>
+                    <th>Topic</th>
+                </tr>
+                <tr>
+                    <td>8:00 AM - 10:00 AM</td>
+                    <td>Introduction to HTML</td>
+                </tr>
+                <tr>
+                    <td>10:30 AM - 12:30 PM</td>
+                    <td>HTML Tags</td>
+                </tr>
+                <tr>
+                    <td>1:00 PM - 2:30 PM</td>
+                    <td>HTML Links</td>
+                </tr>
+            </table>
+        </div>
+        
+    
+        <div class="day">
+            <h2 class="highlight-green">Tuesday</h2>
+        </div>
+        <table>
+            <tr>
+                <th>Timing</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>8:00 AM - 10:00 AM</td>
+                <td>Introduction to CSS</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 12:30 PM</td>
+                <td>Examples on CSS</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 2:30 PM</td>
+                <td>HTML Links</td>
+            </tr>
+        </table>
+    </div>
+        <div class="day">
+            <h2 class="highlight-blue">Wednesday</h2>
+        </div>
+        <table>
+            <tr>
+                <th>Timing</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>8:00 AM - 10:00 AM</td>
+                <td>Introduction to Javascript</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 12:30 PM</td>
+                <td>JS syntax and statements</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 2:30 PM</td>
+                <td>Examples on JS</td>
+            </tr>
+        </table>
+    </div>
+        <div class="day">
+            <h2 class="highlight-green">Thursday</h2>
+        </div>
+        <table>
+            <tr>
+                <th>Timing</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>8:00 AM - 10:00 AM</td>
+                <td>Introduction to Bootstrap</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 12:30 PM</td>
+                <td>Detailed in Bootstrap</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 2:30 PM</td>
+                <td>Examples on Bootstrap</td>
+            </tr>
+        </table>
+    </div>
+        <div class="day">
+            <h2 class="highlight-blue">Friday</h2>
+        </div>
+        <table>
+            <tr>
+                <th>Timing</th>
+                <th>Topic</th>
+            </tr>
+            <tr>
+                <td>8:00 AM - 10:00 AM</td>
+                <td>Revision of HTML & CSS</td>
+            </tr>
+            <tr>
+                <td>10:30 AM - 12:30 PM</td>
+                <td>Revision on Javascript</td>
+            </tr>
+            <tr>
+                <td>1:00 PM - 2:30 PM</td>
+                <td>Revision on Bootstarp</td>
+            </tr>
+        </table>
+        <div class="day">
+            <h2 class="highlight-green">Saturday</h2>
+        </div>
+        <table>
+            <tr>
+                <th>Building and implementation of Project </th>
+               </tr> 
+               <tr>
+                <td>Implementation Based on HTML, CSS, JS, BOOTSTRAP.</td>
+            </tr>
+        </table>
+
+    </section>
+
+    <footer>
+        <p>Designed by Madhu S</p>
+    </footer>
+</body>
+</html>
